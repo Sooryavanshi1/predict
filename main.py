@@ -91,9 +91,9 @@ def signup():
 
 
 # developer view funtion and path
-@app.route('/login')
+@app.route('/developer')
 def developer():
-    return render_template("login.html")
+    return render_template("developer.html")
 
 # about view funtion and path
 @app.route('/blog')
